@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Guess My Number!</h1>
+      <p class="between">(Between 1 and 20)</p>
+      <button class="btn again">Reset</button>
+      <span class="help-button">?</span>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <p class="how-to-play"><h2>HOW TO PLAY</h2></p>
+      <hr/>
+            <p class="modal-p">Guess a number between <i><strong>1</strong></i> & <i><strong>20</strong></i>.</p>
+            <hr/>
+            <p class="modal-p">Keep on guessing until you match with the<span class="green-text">Correct Number!!</span>.</p>
+            <hr/>
+            <p class="modal-p">Aim for the maximum Score & try to grab the
+            <span class="golden-snitch"><strong>GOLDEN SNITCH</strong></span>.</p>
+            <hr/>
+            <p class="modal-p"><strong>Reach out to me</strong> at: <a href="https://www.twitter.com/Risshil" target="_blank">@Rishil Bhatt (Twitter)</a> or mail to <a href="mailto:risshilbhatt@gmail.com" target="_blank">risshilbhatt@gmail.com</a></p>
+            <hr/>
+            <p class="modal-p">Thank You - <a href="https://www.twitter.com/jonasschmedtman" target="_blank">@Jonas Schmedtmann (Twitter)</a></p>
+            
+        </div>
+    </div>
+
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
